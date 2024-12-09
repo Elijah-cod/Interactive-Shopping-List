@@ -50,6 +50,8 @@ button:hover {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .itemcontainer {
@@ -102,4 +104,15 @@ button:hover {
 .complete {
     text-decoration:line-through;
     text-decoration-color: red;
+}
+
+@media (max-width: 480px) {
+    #input {
+        flex-direction: column;
+    }
+
+    .shoppingcontainer {
+        align-items: center;
+        justify-content: center;
+    }
 }
