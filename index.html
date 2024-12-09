@@ -10,30 +10,19 @@
 </head>
 <body>
     <h1>SHOPPING LIST</h1>
-    <div class="input">
+    <form id="input">
         <!-- Input Box for adding the shopping items -->
-        <input type="text" placeholder="Item name">
+        <input id="item" type="text" placeholder="Item name" required>
         <!-- Input box for only allowing numbers to be added on the price input box -->
-        <input type="number" placeholder="Price">
-        <button>Add</button>
-    </div>
+        <input id="price" type="number" placeholder="Price" required>
+        <button onclick="add(event)" type="submit">Add</button>
+    </form>
 
     <!-- Container that will hold all the different shopping items -->
     <div class="shoppingcontainer">
-        <!-- Container that holds the individual shopping items -->
-        <div class="itemcontainer">
-            <i class="fa fa-times close" aria-hidden="true"></i>
-            <div class="left">
-                <h3>Bread</h3> 
-                <p>300</p>
-                <label>
-                    <input type="checkbox" name="complete" value="male"> Mark as completed
-                </label>
-            </div>
-        </div>
     </div>
 
-    <button class="clear">Clear</button>
+    <button id="clear" class="display" onclick="clearAll()">Clear</button>
     <script src="script.js"></script>
 </body>
 </html>

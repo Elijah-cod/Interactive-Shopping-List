@@ -13,14 +13,14 @@ h1 {
     font-weight: 800;
 }
 
-.input {
+#input {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
 
-.input input {
+#input input {
     padding: 10px;
     border-radius: 10px;
 }
@@ -39,7 +39,7 @@ button:hover {
     cursor: pointer;
 }
 
-.clear {
+#clear {
     margin-left: 30px;
     margin-top: 20px;
 }
@@ -47,6 +47,9 @@ button:hover {
 .shoppingcontainer {
     width: 100%;
     padding: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .itemcontainer {
@@ -92,3 +95,11 @@ button:hover {
     cursor: pointer;
 }
 
+.display {
+    display: none;
+}
+
+.complete {
+    text-decoration:line-through;
+    text-decoration-color: red;
+}
