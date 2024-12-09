@@ -106,6 +106,8 @@ button:hover {
     text-decoration-color: red;
 }
 
+
+/* Making the page responsive for smalller screens */
 @media (max-width: 480px) {
     #input {
         flex-direction: column;
