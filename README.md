@@ -76,3 +76,4 @@ function clearAll() {
     clearButton.classList.add('display');
 }
 ```
+Here is the [Link](https://elijah-cod.github.io/Interactive-Shopping-List/) to access the project
