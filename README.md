@@ -1,5 +1,6 @@
 # Interactive-Shopping-List
 The project is a shopping list maker where users can add items along with their prices. It helps keep track of the items you plan to buy and those you've already purchased.
+Here is the [Link](https://elijah-cod.github.io/Interactive-Shopping-List/) to access the project
 
 ![screenshot](screenshot.png)
 
@@ -76,4 +77,4 @@ function clearAll() {
     clearButton.classList.add('display');
 }
 ```
-Here is the [Link](https://elijah-cod.github.io/Interactive-Shopping-List/) to access the project
+
